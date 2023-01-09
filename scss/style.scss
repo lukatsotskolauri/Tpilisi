@@ -1,0 +1,467 @@
+header{
+    background:linear-gradient(to top, rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.733));
+}
+main{
+    background-color: #f6fdf8;
+}
+
+
+nav{
+  
+    max-width: 100%;
+    height: 50px;
+    .left-nav{
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    }
+    p{
+        cursor:pointer;
+        color: white;
+        font-size: 11px;
+        padding-top: 15px;
+        span{
+            padding-left: 10px;
+        }
+    }
+    p:hover{
+        color: rgb(44, 236, 92);
+        transition: 0.6s;
+    }
+
+    svg{
+        cursor:pointer;
+        margin-top: 15px;
+        color: white;
+      width: 11px;
+    }
+    svg:hover{
+        color: rgb(44, 236, 92);
+    
+    }
+    .nav-body{
+    width: 1180px;
+     margin: auto;
+    display: flex;
+    justify-content: space-between;
+    }
+    .right-nav{
+        padding-right: 10px;
+    }
+    
+}
+.nav-2{
+    display: flex;
+    width: 1180px;
+     margin: auto;
+     li a:hover{
+         color: yellowgreen;
+     }
+    li{
+        cursor:pointer;
+        padding: 0px 15px 0px 15px;
+        color: white;
+        list-style: none;
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    }
+    ul{
+        margin-left: 30px;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        width: 790px;
+        
+    }
+    .logo{
+        cursor:pointer;
+        height: 115px;
+        width: 130px;
+        border-radius: 10px;
+    }
+    p{
+        font-size: 16px;
+        font-weight:bolder;
+    }
+    
+    .hamburger-div{
+        cursor:pointer;
+        img:nth-child(3){
+          position: relative;
+          left: 20px;
+        }
+        img:nth-child(1){
+          position: relative;
+          left: 10px;
+        }
+        img{
+            display: block;
+            padding: 2px;
+        }
+    }
+}
+
+.VIDEO{
+   font-size: 15px;
+    margin: auto;
+    background-color: rgba(102, 93, 93, 0.39);
+    width: fit-content;
+    color: white;
+   height: 50px;
+   width: 195px;
+   padding: 10px;
+    margin-top: 65px;
+    cursor: pointer;
+    font-weight:500;
+    svg{
+        margin-right: 2px;
+    }
+}
+.VIDEO:hover{
+    color: rgb(11, 54, 11);
+    
+    
+}
+
+.input-body{
+    border-radius: 2px;
+filter: drop-shadow(0.416px 1.956px 14.5px rgba(0,0,0,0.46));
+background-image: linear-gradient(0deg, #1b1b2341 0%, #1b19233f 100%);
+    margin-top: 105px;
+    height: 145px;
+    width: 900px;
+    padding: 20px 55px 55px 40px;
+    input{ 
+        border: none;
+        text-align: center;
+        padding: 0;
+    margin: 0;
+     }
+     p{
+         display: flex;
+         color: white;
+        
+     }
+     .inputs{
+         display: flex;
+         justify-content:center;
+     }
+     select{
+        text-align: center;
+         width: 165px;
+         height: 40px;
+     }
+     button{
+         color: white;
+         border: none;
+         width: 164px;
+        height: 40px;
+        background-image: linear-gradient(0deg, #193527 0%, #1c3729 100%);
+     }
+     button:hover{
+         color:#3af798 ;
+     }
+}
+.cardsss{
+    margin: 200px auto 0px auto ;
+    width: 1180px;
+    .card{
+        z-index: 1;
+        position: relative;
+        padding-left: 35px;
+        width: 375px;
+        height: 205px;
+        display: flex;
+        border-radius: 15px;
+        background-color: #1c1b24;
+        .naxatis-ukan{
+            background-color: #1e1d2a;
+            height: 140px;
+            width: 305px;
+            position: absolute;
+            z-index: -1;
+            bottom: 0;
+            right: 0;
+            border-top-left-radius: 100%;
+            border-bottom-right-radius: 15px;
+            img{
+                position: absolute;
+                bottom: 25px;
+                right: 35px;
+            }
+            
+        }
+        h5{
+            color: #8e8d92;
+            margin-bottom: 8px;
+            z-index: 3;
+        }
+        a{
+            font-size: 12px;
+            z-index:1;
+            margin-top: 70px;
+            height: 31px;
+            width: 160px;
+            padding: 4px 0px 0px 0px;
+        }
+        #orderebi{
+            background-color: #f36801;
+            box-shadow: 0px 0px 15px 0px #f36801;
+        }
+        #orderebi2{
+            background-color: #45b175;
+            box-shadow: 0px 0px 15px 0px #45b175;
+        }
+        #orderebi3{
+            background-color: #b741c9;
+            box-shadow: 0px 0px 15px 0px #b741c9;
+        }
+       
+        .card-body{
+            display: block;
+        }
+    }
+    .row{
+        display: flex;
+        .col-sm-6{
+            width: fit-content;
+            display: flex;
+    
+        }
+    }
+}
+.price-main{
+    width: 1180px;
+    margin: auto;
+    margin-top: 66px;
+    a:not(.not){
+        border: 2px solid black;
+        border-radius: 30px;
+        text-decoration: none;
+        color: #41424e;
+        padding: 10px 35px 10px 35px;
+        margin-left: 30px;
+    }
+    a:hover{
+       background-image: linear-gradient(to left, #3a6851, rgb(109, 177, 109));
+       transition: 1s;
+    }
+    a:nth-child(1){
+        border: none;
+        background-color: #edfdfb;
+        padding: 10px 35px 10px 35px;
+        border-radius: 30px;
+        text-decoration: none;
+        color: #41424e;
+    }
+   
+    .prices{
+        display: flex;
+        flex-wrap: wrap;
+        .prices-body{
+            position: relative;
+            margin-top:70px;
+            width: 515px;
+            border-top: none;
+            border-bottom: 2px dotted #959595 ;
+            border-left: 2px dotted #959595;
+            height: 80px;
+            border-bottom-left-radius: 10px; 
+            .numbers-price{
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                background-color: #f36801;
+                position: absolute;
+                top: 0px;
+                left: -25px;
+                
+                p:nth-child(1){
+                    color: white;
+                    font-size: 30px;
+                    text-align: center;
+                   
+                }
+               
+               
+            }
+        }
+        .lorem{
+            font-size: 13px;
+        }
+      
+            h4{
+                font-size: 18px;
+                color: #38415f;
+            
+                
+            }
+        
+        #gasawevi{
+            margin-left: 115px;
+        }
+        .esssss{
+            width: 300px;
+            margin-left: 65px;
+            .pasi{
+                position: absolute;
+                top: 0;
+                right: 0;
+                font-size: 16px;
+            }
+        
+        }
+       
+    }
+    
+}
+.zemodan{
+    margin-top: 130px;
+}
+.hotels-main{
+    margin-top: 50px;
+    display: flex;
+    
+    
+    .hotel-card-body{
+        margin-left: 30px;
+        position: relative;
+        width: fit-content;
+        img{
+            z-index: 1;
+            width: 375px; 
+            height: 210px; 
+            border-radius: 5px;
+        }
+        #card{
+            
+            padding: 10px;
+            border-radius: 5px;
+            position: relative;
+            z-index: 2;
+            bottom: 27px;
+          margin: auto;
+            width:350px ;
+            height:125px ;
+            background-color: #fff;
+            .hotel-book{
+                h5{
+                    font-weight: bold;
+                }
+                display: flex;
+                justify-content: space-between;
+                p{
+                    color: #b6bac8;
+                }
+                .BOOKNOW{
+                    background-color: #3d63f9;
+                    border: none;
+                    border-radius: 5px;
+                    height: 30px;
+                    color: white;
+                    font-size: 10px;
+                    padding-top: 7px;
+                }
+            }
+            .flex-icons{
+                display: flex;
+                justify-content: space-between;
+                width: 210px;
+                .iconss{
+                    
+                    I{
+                        color:#3d64f9 ;
+                    }
+                p:nth-child(2){
+                    display: inline-block;
+                    font-size: 11px;
+                    color: #3d64f9;
+                    font-weight: 900;
+                }
+                p:nth-child(1){
+                    width: fit-content;
+                    font-size: 11px;
+                    color: #3d64f9;
+                    font-weight: 900;
+                }
+                }  
+            }
+         
+        }
+    }
+}
+.potoebei{
+    margin-top: 135px;
+    width: 100%;
+    height: fit-content;
+    .photos{
+        width: 100%;
+         height: 680px;
+          }
+}
+.footer-last{
+    width: 100%;
+    height: 540px;
+    background-color: #1a3628;
+    margin-top: 185px;
+    .footer-lats-body{
+        width: 1240px;
+        margin: auto;
+        display: flex;
+     
+        justify-content: space-around;
+        .footer-last-text1{
+          
+            margin-top: 75px;
+            width: 280px;
+            height: fit-content;
+            p{
+                margin-top: 35px;
+                color: white;
+                font-size: 16px;
+            }
+            h1{
+                text-align: start;
+                font-size: 24px;
+                color: white;
+            }
+          
+        }
+        .footer-last-text{
+        
+            margin-top: 75px;
+            width: fit-content;
+            height: fit-content;
+            p{
+                margin-top: 35px;
+                color: white;
+                font-size: 16px;
+            }
+            h1{
+                text-align: start;
+                font-size: 24px;
+                color: white;
+            }
+          
+        }
+    }
+
+}
+.footer-2{
+    background-color: #101213;
+    width: 100%;
+    height: 55px;
+    padding: 15px;
+    p{
+        color:white;
+        font-size:18px;
+        margin-left: 140px;
+        span{
+            margin: 0px 5px 0px 5px;
+        }
+        
+    }
+}
